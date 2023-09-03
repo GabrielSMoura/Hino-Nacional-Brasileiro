@@ -1,0 +1,135 @@
+body{
+    font-family: Nunito,sans-serif;
+    color: #1c1c1c;
+}
+h1,h2,h3{
+    font-family: Asap,sans-serif;
+    color: #000000;
+}
+.botao{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #055505;
+    color: #FFFFFF;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+header p {
+    margin-bottom: 2em;
+}
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #1451ac;
+    color: #FFFFFF;
+}
+#sobre h2{
+    color: #FFFFFF;
+}
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#sobre .botao{
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+}
+#serviços{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+#serviços div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#fotos h2 {
+    margin-bottom: 20px;
+}
+#fotos img{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #055505;
+    color: #FFFFFF;
+}
+footer a{
+    text-decoration: none;
+    color: #c9bd16;
+}
+
+@media screen and (min-width: 768px){
+    header{
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+
+    #sobre{
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #serviços{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+
+    }
+
+    #serviços h2{
+        text-align: center;
+        width: 100%;
+    }
+    
+    #serviços div{
+        flex: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+
+    }
+
+    #fotos{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #fotos h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    #fotos img{
+        width: 33.3333333%;
+    }
+
+}
