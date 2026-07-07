@@ -1,20 +1,94 @@
-# Hino Nacional Brasileiro
+# 🇧🇷 Hino Nacional Brasileiro
 
-![Bandeira do Brasil](https://s1.static.brasilescola.uol.com.br/be/2024/02/bandeira-do-brasil-hasteada-em-texto-sobre-curiosidades-sobre-o-brasil.jpg) <!-- Substitua pelo link da imagem da bandeira do Brasil -->
+<p align="center">
+  <img src="https://s1.static.brasilescola.uol.com.br/be/2024/02/bandeira-do-brasil-hasteada-em-texto-sobre-curiosidades-sobre-o-brasil.jpg" alt="Bandeira do Brasil" width="500">
+</p>
 
-## 📖 Descrição do Projeto
+## 📖 Sobre o Projeto
 
-Este projeto é um site responsivo dedicado ao Hino Nacional Brasileiro. O site foi desenvolvido com HTML e CSS e visa proporcionar aos usuários uma experiência informativa e visualmente agradável sobre a história, letra e significado do hino nacional do Brasil.
+O **Hino Nacional Brasileiro** é um site responsivo desenvolvido com **HTML5** e **CSS3**, criado para apresentar informações sobre um dos principais símbolos nacionais do Brasil.
 
-## 🛠️ Ferramentas Utilizadas
+A aplicação reúne conteúdos sobre a história do hino, sua letra, significado e permite a reprodução do áudio, oferecendo uma experiência simples, organizada e acessível para estudantes e demais interessados.
 
-- **HTML5**: Para a estruturação do conteúdo.
-- **CSS3**: Para o design e a responsividade do site.
+---
 
-## 📋 Funcionalidades
+## ✨ Funcionalidades
 
-- **Página Inicial**: Introdução ao Hino Nacional Brasileiro.
-- **História**: Informações detalhadas sobre a história e o contexto de criação do hino.
-- **Letra**: Texto completo do hino nacional com traduções e explicações.
-- **Áudio**: Reproduza o hino nacional diretamente no site.
-- **Responsividade**: Design adaptado para funcionar bem em dispositivos móveis, tablets e desktops.
+- 🇧🇷 Apresentação do Hino Nacional Brasileiro
+- 📜 Seção com a história e origem do hino
+- 📝 Exibição da letra completa
+- 🎵 Reprodução do áudio do Hino Nacional
+- 📱 Layout totalmente responsivo
+- 🧭 Navegação simples e intuitiva
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+Hino-Nacional-Brasileiro/
+├── assets/
+│   ├── css/
+│   ├── img/
+│   └── audio/
+├── index.html
+└── README.md
+```
+
+> A estrutura pode variar conforme a organização do projeto.
+
+---
+
+## ▶️ Como Executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU-USUARIO/Hino-Nacional-Brasileiro.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd Hino-Nacional-Brasileiro
+```
+
+Abra o arquivo **index.html** no navegador ou utilize uma extensão como **Live Server** no Visual Studio Code.
+
+---
+
+## 🎯 Objetivos
+
+Este projeto foi desenvolvido para praticar conceitos de desenvolvimento Front-end e criar uma página informativa utilizando apenas tecnologias fundamentais da web.
+
+Durante o desenvolvimento foram aplicados conceitos como:
+
+- Estruturação semântica com HTML5
+- Estilização com CSS3
+- Responsividade
+- Organização de conteúdo
+- Boas práticas de desenvolvimento web
+
+
+---
+
+## 🚀 Melhorias Futuras
+
+- [ ] Adicionar animações e transições
+- [ ] Implementar modo claro/escuro
+- [ ] Criar uma seção com curiosidades sobre o Hino Nacional
+- [ ] Exibir informações sobre os autores da letra e da música
+- [ ] Melhorar a acessibilidade da aplicação
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins acadêmicos e de aprendizado. Sinta-se à vontade para utilizá-lo como referência para estudos e projetos semelhantes.
